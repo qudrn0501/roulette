@@ -22,6 +22,7 @@
     url("https://m.lifeplanet.co.kr:444/commons/slink/administrator/openInnovation/img/MO)%20360%ED%94%8C%EB%9E%98%EB%8B%9B_%EB%A3%B0%EB%A0%9B%ED%8C%90_476x476_201026.png")
     no-repeat;
   background-size: 100%;
+  transform: rotate(60deg);
   transform-origin: center; /*회전 중심(원점 기준점)을 지정*/
   transition-timing-function: ease-in-out;
   transition: 2s;
@@ -55,5 +56,5 @@
 }
 
 .hidden-input {
-  display: block;
+  display: none;
 }

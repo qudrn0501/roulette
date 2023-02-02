@@ -45,17 +45,17 @@ const rRotate = () => {
 // 정해진 alert 띄우기, custom modal 등
 const rLayerPopup = (setNum) => {
   if (setNum == 0) {
-    console.log("starbucks R");
+    alert("까비 왼쪽에 스벅 있는데");
   } else if (setNum == 1) {
-    console.log("starbucks");
+    alert("올 스벅 ㅊㅋ");
   } else if (setNum == 2) {
-    console.log("hamR");
+    alert("왼쪽에 햄버거ㅎㅎ 다이어트 한다고 생각하셈");
   } else if (setNum == 3) {
-    console.log("hamburger");
+    alert("올 햄최몇?");
   } else if (setNum == 4) {
-    console.log("cuR");
+    alert("운도 없네 왼쪽에 씨유 놓침");
   } else if (setNum == 5) {
-    console.log("cu");
+    alert("씨유 3천원 갖고 뭘 사라고");
   }
 }
 
